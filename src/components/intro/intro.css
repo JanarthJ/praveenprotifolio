@@ -1,0 +1,10 @@
+.Intro-MainDiv .MuiBox-root{
+    /* p: 2,m:5, border: '1px dashed white',color:"red",backgroundColor:"#fff",borderRadius:"5px" */
+    border: 1px solid white !important;
+    color:black !important;
+    padding: 2% !important;
+    margin: 5% !important;
+    background-color: white !important;
+    border-radius: 5px !important;
+}
+
