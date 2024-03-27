@@ -2,4 +2,8 @@
 
 .MuiBox-root nav{
     background-color: black !important;
+    padding-left: 2% !important;
+    padding-right: 2% !important;
+    padding-top: 0% !important;
+    padding-bottom: 0% !important;
 }
