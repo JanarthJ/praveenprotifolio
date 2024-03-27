@@ -7,7 +7,7 @@ import Socials from './Socials';
 function Intro() {
     return (
       <div className="Intro-MainDiv" style={{marginTop:"80px"}}>
-            <Box component="section">
+            <Box className='Intro-boxMain' component="section">
                 <div className='introclasscont'>
                   <span style={{fontSize:'120%', fontWeight: 'bold', fontFamily:'sans-serif'}}>Hello, This is</span>
                   <span style={{fontSize:'600%', fontWeight: "bold", fontFamily:'sen', position: 'relative', right:'7px'}}>Praveen N</span>
@@ -15,13 +15,16 @@ function Intro() {
                   <Socials className="socials"></Socials>
                   <button className='introbutton'>Download CV</button>
                 </div>
+                <div>
+                  <Avatar
+                    alt="Remy Sharp"
+                    src="/static/images/avatar/1.jpg"
+                    sx={{ width: 250, height: 250 }}          
+                    style={{position:"absolute",right:220,bottom:300}}         
+                    />
+                </div>
             </Box>
-            <Avatar
-                   alt="Remy Sharp"
-                   src="/static/images/avatar/1.jpg"
-                   sx={{ width: 250, height: 250 }}
-                   style={{position: 'relative', left: '1400px', bottom: '470px'}}
-                  />
+            
       </div>
     );
   }
