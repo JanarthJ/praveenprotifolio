@@ -1,0 +1,17 @@
+.aboutMaindiv{
+    color: white;
+    padding: 2%;
+    margin: auto;
+    background-color: #171717;
+    width: 100%;
+    height: 80%;
+    /* position: relative !important; */
+}
+
+.aboutInnerdiv1{
+    margin: 30px;
+}
+
+.aboutInnerdiv2{
+    margin: 20px;
+}

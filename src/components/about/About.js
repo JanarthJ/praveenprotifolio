@@ -1,68 +1,26 @@
 import * as React from 'react';
-import { TextareaAutosize as BaseTextareaAutosize } from '@mui/base/TextareaAutosize';
-import { styled } from '@mui/system';
+import "./about.css";
 
 export default function About() {
-  const blue = {
-    100: '#DAECFF',
-    200: '#b6daff',
-    400: '#3399FF',
-    500: '#007FFF',
-    600: '#0072E5',
-    900: '#003A75',
-  };
-
-  const grey = {
-    50: '#F3F6F9',
-    100: '#E5EAF2',
-    200: '#DAE2ED',
-    300: '#C7D0DD',
-    400: '#B0B8C4',
-    500: '#9DA8B7',
-    600: '#6B7A90',
-    700: '#434D5B',
-    800: '#303740',
-    900: '#1C2025',
-  };
-
-  const Textarea = styled(BaseTextareaAutosize)(
-    ({ theme }) => `
-    box-sizing: border-box;
-    width: 320px;
-    font-family: 'IBM Plex Sans', sans-serif;
-    font-size: 0.875rem;
-    font-weight: 400;
-    line-height: 1.5;
-    padding: 8px 12px;
-    border-radius: 8px;
-    color: ${theme.palette.mode === 'dark' ? grey[300] : grey[900]};
-    background: ${theme.palette.mode === 'dark' ? grey[900] : '#fff'};
-    border: 1px solid ${theme.palette.mode === 'dark' ? grey[700] : grey[200]};
-    box-shadow: 0px 2px 2px ${theme.palette.mode === 'dark' ? grey[900] : grey[50]};
-
-    &:hover {
-      border-color: ${blue[400]};
-    }
-
-    &:focus {
-      border-color: ${blue[400]};
-      box-shadow: 0 0 0 3px ${theme.palette.mode === 'dark' ? blue[600] : blue[200]};
-    }
-
-    // firefox
-    &:focus-visible {
-      outline: 0;
-    }
-  `,
-  );
 
   return (
-    <Textarea
-      maxRows={4}
-      aria-label="maximum height"
-      placeholder="Maximum 4 rows"
-      defaultValue="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-        ut labore et dolore magna aliqua."
-    />
+      <div className='aboutMaindiv'>
+        <div className='aboutInnerdiv1'>
+        <p>
+          <span style={{fontWeight:'bold',fontSize:'32px'}}>About me</span>
+          <br/>
+          <div className='aboutInnerdiv2'>
+           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in volutpat dui, ultrices semper turpis.
+           Nunc egestas ut erat in sodales. Donec ullamcorper elementum nibh sit amet tincidunt. In eget ligula condimentum est interdum 
+           dignissim. Sed consectetur tristique eleifend. Quisque porta placerat nunc nec faucibus. Donec eu tortor ut enim fermentum auctor. 
+           Phasellus vel turpis pretium lectus blandit ultrices.
+
+           Nunc feugiat sollicitudin posuere. Donec nisi nisi, egestas eu tortor non, ornare pretium mauris. 
+           Integer ac tellus sagittis, molestie eros non, pretium quam. Cras dapibus in lorem quis pulvinar. Donec sodales, sem at lobortis ornare, quam mauris sodales metus, lacinia lobortis metus purus quis sem. Proin maximus aliquet tincidunt. Maecenas aliquet ex eros, quis aliquet felis congue et. Nam consectetur ligula ligula, ac lobortis ipsum ornare non. Vestibulum eget ornare leo. Nunc rutrum tristique vestibulum. Cras vehicula efficitur nisi, quis tincidunt tortor placerat et. Suspendisse convallis, nisi eu interdum vestibulum, nunc urna dictum nibh, non consectetur mauris massa et risus. Morbi eleifend purus in nibh semper, quis porttitor diam faucibus. Pellentesque accumsan ultricies lacus, tristique mattis ex venenatis 
+          condimentum. Nulla ultricies vitae nulla nec commodo. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+          </div>
+        </p>
+        </div>
+      </div>
   );
 }
