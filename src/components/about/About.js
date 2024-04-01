@@ -7,7 +7,7 @@ export default function About() {
       <div className='aboutMaindiv'>
         <div className='aboutInnerdiv1'>
         <p>
-          <span style={{fontWeight:'bold',fontSize:'32px'}}>About me</span>
+          <span className='aboutHeader'><b>About me</b></span>
           <br/>
           <div className='aboutInnerdiv2'>
            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in volutpat dui, ultrices semper turpis.

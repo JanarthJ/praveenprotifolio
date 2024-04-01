@@ -4,14 +4,15 @@
     margin: auto;
     background-color: #171717;
     width: 100%;
-    height: 80%;
-    /* position: relative !important; */
 }
-
+.aboutHeader{
+    font-size: 2vw;
+}
 .aboutInnerdiv1{
     margin: 30px;
 }
 
 .aboutInnerdiv2{
     margin: 20px;
+    font-size: 1.3vw;
 }

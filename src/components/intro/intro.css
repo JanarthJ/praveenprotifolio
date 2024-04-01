@@ -1,38 +1,41 @@
 .Intro-MainDiv{
-    /* p: 2,m:5, border: '1px dashed white',color:"red",backgroundColor:"#fff",borderRadius:"5px" */
+   
     border: 1px solid white !important;
     color:black !important;
     padding: 5% !important;
     margin: 5% !important;
     background-color: #F5F5F5 !important;
     border-radius: 15px !important;
-    height: 90% !important; 
     width: 90% !important;
     display: grid;
-    grid-template-columns: 10fr 2fr;
+    grid-template-columns: 8fr 4fr;
     
 }
-/* .Intro-boxMain{
-    display:"flex";
-    border: 1px solid white !important;
-    color:black !important;
-    padding: 5% !important;
-    margin: 5% !important;
-    background-color: #F5F5F5 !important;
-    height: 40% !important; 
-    width: 90% !important;
-} */
+
 .introclasscont{
     display: grid;
     grid-template-rows: repeat(1fr);
 }
 
 .introbutton{
-    /* style={{width:'8%', padding: '10px', borderRadius:'5px'}} */
-    width: 12%;
+    min-width: 120px;
+    width: 15%;
     padding: 10px;
     border-radius: 5px;
     position: relative;
     top: 40px;
+}
 
+.introHello{
+    font-size: 1.5vw;
+    font-weight: bold;
+}
+
+.introPraveen{
+    font-size: 7.5vw;
+    font-weight: bold;
+}
+.introfront{
+    font-size: 1.5vw;
+    font-weight: normal;
 }

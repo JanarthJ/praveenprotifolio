@@ -9,21 +9,21 @@ function Intro() {
       <div className="Intro-MainDiv" style={{marginTop:"80px"}}>
             <Box className='Intro-boxMain' component="section">
                 <div className='introclasscont'>
-                  <span style={{fontSize:'120%', fontWeight: 'bold', fontFamily:'sans-serif'}}>Hello, This is</span>
-                  <span style={{fontSize:'600%', fontWeight: "bold", fontFamily:'sen', position: 'relative', right:'7px'}}>Praveen N</span>
-                  <span style={{fontSize:'150%', fontWeight: 'normal', fontFamily:'sans-serif'}}>Front End Developer</span>
+                  <span className='introHello'>Hello, This is</span>
+                  <span className='introPraveen'>Praveen N</span>
+                  <span className='introfront'>Front End Developer</span>
                   <Socials className="socials"></Socials>
                   <button className='introbutton'>Download CV</button>
                 </div> 
             </Box>
-            <div>
+            <div style={{margin:'auto'}}>
                   <Avatar
                     alt="Remy Sharp"
                     src="/static/images/avatar/1.jpg"
-                    sx={{ width: 250, height: 250 }}          
+                    sx={{ width: '18vw', height: '18vw'}}          
                     // style={{position:"absolute",right:220,bottom:300}}         
                     />
-                </div>
+            </div>
             
       </div>
     );

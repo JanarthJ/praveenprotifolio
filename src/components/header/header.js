@@ -49,8 +49,8 @@ function Header(props) {
   const container = window !== undefined ? () => window().document.body : undefined;
 
   return (
-    <div >
-    <Box sx={{ display: 'flex',backgroundColor:"#000000" }}>
+    <div>
+    <Box sx={{ display: 'flex',backgroundColor:"#000000"}}>
       <CssBaseline />
       <AppBar className="header-MainDiv" component="nav">
         <Toolbar>
@@ -97,6 +97,7 @@ function Header(props) {
         </Drawer>
       </nav>     
     </Box>
+  
     </div>
   );
 }
