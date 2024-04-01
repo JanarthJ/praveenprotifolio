@@ -1,7 +1,9 @@
+import { Slider } from "@mui/material";
 import About from "../about/About";
 import Header from "../header/header";
 import Intro from "../intro/intro";
 import SkillMain from "../skills/skillMain";
+import Imgslider from "../carousel/Slider";
 
 
 
@@ -12,6 +14,8 @@ function Main() {
         <Intro/>
         <About/>
         <SkillMain/>
+        <Imgslider/>
+
       </div>
     );
   }
