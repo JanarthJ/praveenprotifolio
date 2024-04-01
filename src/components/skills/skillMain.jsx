@@ -8,11 +8,11 @@ function SkillMain(){
             <span className="skillHeader" style={{color:'white', fontFamily:'Sen'}}>Skills</span>
             <div className="skillMainDiv">  
                 <Skills 
-                role={"Developer"} 
+                role={"Front End Developer"} 
                 skillList={['HTML','CSS','JAVASCRIPT','REACT']}
                 />
                 <Skills role={"Photographer"}
-                skillList={['AdobePS','AdobePremiurPro']}
+                skillList={['Adobe Photoshop','Adobe PremierPro','Adobe After Effects','Canva','Davinci Resolve']}
                 />       
             </div>    
         </div>

@@ -1,0 +1,56 @@
+.Contactouterdiv{
+    margin: 2%;
+}
+
+.contactHead{
+    font-weight: bolder;
+    font-size: large;
+    color: white;
+}
+.contactMaindiv{
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+    color: white;
+    margin: auto;
+    padding: 2%;
+}
+.contactForm{
+    position: relative;
+}
+.contactBox{
+    background-color: #D8DAF6;
+    padding: 5%;
+    margin: 2%;
+    width: 30vw;
+    border-radius: 7px;
+    color: black;
+    font-weight:bold;
+    position: absolute;
+}
+
+.contactElements{
+    margin-top: 20px;
+}
+.contactRows{
+    display: flex;
+    flex-direction: column;
+}
+.contactCols{
+    display: grid;
+    grid-template-columns: 2fr 2fr 4fr;
+    gap: 15px;
+}
+
+.contactButton{
+   display: flex;
+   flex-direction: row;
+   column-gap: 18px;
+   margin-top: 10px;
+   position: absolute;
+   right: 75px;
+}
+input{
+    border-radius: 5px;
+    border: 0px;
+    background-color: #807E7E;
+}
