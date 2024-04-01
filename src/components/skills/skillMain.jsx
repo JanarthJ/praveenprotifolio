@@ -5,7 +5,7 @@ import "./skills.css";
 function SkillMain(){
     return(
         <div className="skillsTopDiv">
-            <span className="skillHeader" style={{color:'white', fontFamily:'Sen'}}>Skills</span>
+            <div className="skillHeader" style={{color:'white', fontFamily:'Sen', textAlign:'center'}}>Skills</div>
             <div className="skillMainDiv">  
                 <Skills 
                 role={"Front End Developer"} 

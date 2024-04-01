@@ -1,18 +1,21 @@
 .Contactouterdiv{
+    display: grid;
+    grid-template-rows: 1fr 11fr;
     margin: 2%;
+    padding: 2%;
 }
 
 .contactHead{
     font-weight: bolder;
     font-size: large;
     color: white;
+    text-align: center;
 }
 .contactMaindiv{
     display: grid;
     grid-template-columns: 6fr 6fr;
     color: white;
-    margin: auto;
-    padding: 2%;
+    /* margin: auto; */
 }
 .contactForm{
     position: relative;

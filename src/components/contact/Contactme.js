@@ -2,7 +2,7 @@ import "./Contact.css"
 export default function Contactme(){
     return(
         <div className="Contactouterdiv">
-            <span className="contactHead">Contact Me</span>
+            <div className="contactHead">Contact Me</div>
         <div className="contactMaindiv">
             <div className="ContactEmail" >
                 <span>Let's stay</span><br/>

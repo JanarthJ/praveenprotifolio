@@ -57,6 +57,8 @@ function Imgslider() {
   };
 
   return (
+    <div style={{margin:'2%',padding:'2%'}}>
+      <div style={{color:'white', textAlign:'center'}}> Photography</div>
     <Box sx={{ maxWidth: '100%', flexGrow: 1, margin:'auto' }}>
       <Paper
         
@@ -86,9 +88,9 @@ function Imgslider() {
               <Box
                 component="img"
                 sx={{
-                  height: '50%',
+                  // height: '50%',
                   display: 'block',
-                  maxWidth: '90%',
+                  maxWidth: '100%',
                   overflow: 'hidden',
                   width: '100%',
                 }}
@@ -129,6 +131,7 @@ function Imgslider() {
         }
       />
     </Box>
+    </div>
   );
 }
 
