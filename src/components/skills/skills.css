@@ -1,10 +1,22 @@
-.skillMainDiv{
+.skillsTopDiv{
     margin:2% !important;
     padding: 2% !important;
 }
+.skillMainDiv{
+    margin:2% !important;
+    padding: 2% !important;
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+}
+.skillHeader{
+    font-size: 2vw;
+    color: white;
+    font-family: 'Sen !important';
+}
 .SkillsDiv{
     width: 40%;
-    height: 400px;
+    min-height: 250px;
+    height: 100%;
     background-color: transparent;
     margin:auto;
     perspective: 1000px;
@@ -47,8 +59,8 @@
 
 
 /* SkillMain css */
-.skillMainDiv{
+/* .skillMainDiv{
     display: grid;
     grid-template-columns: 6fr 6fr;
     column-gap: 0.5rem;
-}
+} */

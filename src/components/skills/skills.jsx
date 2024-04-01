@@ -1,20 +1,26 @@
 import "./skills.css";
 
-function Skills(){
-    return(
-        
+//child
+function Skills(props){
+    return(        
         <div className="SkillsDiv">
             <div className="innerDiv">
                 <div className="frontendDiv">
-                        <p>Front</p>
+                        <p>{props.role}</p>
                 </div>
                 <div className="backendDiv">
-                    backend
+                    <ul>
+                        {
+                        props.skillList.map((data,index)=>{
+                            return(
+                                <li key={index}>{data}</li>
+                            )
+                        })
+                    }
+                    </ul>
                 </div>
-
             </div>
-        </div>
-        
+        </div>        
     );
 }
 

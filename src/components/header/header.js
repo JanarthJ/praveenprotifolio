@@ -64,7 +64,7 @@ function Header(props) {
             <MenuIcon />
           </IconButton>
           <Typography
-            variant="h6"
+            variant="h4"
             component="div"
             sx={{ flexGrow: 1, display: { xs: 'none', sm: 'block' }, fontWeight:'bold'}}
           >

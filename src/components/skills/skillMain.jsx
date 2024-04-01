@@ -1,15 +1,22 @@
 import Skills from "./skills";
 import "./skills.css";
 
+//parent component
 function SkillMain(){
     return(
-        <div className="skillMainDiv">
-            <p style={{fontWeight:'bold',fontSize:'32px',color:'white', fontFamily:'sen'}}>Skills</p>
-            <br></br>           
-            <Skills/>
-            <Skills/>
+        <div className="skillsTopDiv">
+            <span className="skillHeader" style={{color:'white', fontFamily:'Sen'}}>Skills</span>
+            <div className="skillMainDiv">  
+                <Skills 
+                role={"Developer"} 
+                skillList={['HTML','CSS','JAVASCRIPT','REACT']}
+                />
+                <Skills role={"Photographer"}
+                skillList={['AdobePS','AdobePremiurPro']}
+                />       
+            </div>    
         </div>
     );
 }
 
-export default SkillMain;
+export default SkillMain; 
