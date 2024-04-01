@@ -7,7 +7,10 @@ import SkillMain from "../skills/skillMain";
 
 function Main() {
     return (
-      <div >
+      <div style={{
+        display:"grid",
+        gridTemplateRows:"0.5fr 5.5fr 6fr",
+        backgroundColor:"black"}}>
         <Header/>
         <Intro/>
         {/* <About/> */}

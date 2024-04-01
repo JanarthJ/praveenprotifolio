@@ -14,17 +14,16 @@ function Intro() {
                   <span style={{fontSize:'150%', fontWeight: 'normal', fontFamily:'sans-serif'}}>Front End Developer</span>
                   <Socials className="socials"></Socials>
                   <button className='introbutton'>Download CV</button>
-                </div>
-                <div>
+                </div>                
+            </Box>
+            <div>
                   <Avatar
                     alt="Remy Sharp"
                     src="/static/images/avatar/1.jpg"
                     sx={{ width: 250, height: 250 }}          
-                    style={{position:"absolute",right:220,bottom:300}}         
+                    style={{}}         
                     />
-                </div>
-            </Box>
-            
+            </div>
       </div>
     );
   }
