@@ -13,7 +13,7 @@ function Intro() {
                   <div className='introPraveen'>Praveen N</div>
                   <div className='introfront'>Front End Developer</div>
                   <Socials className="socials"></Socials>
-                  <div><button className='introbutton'>Download CV</button></div>
+                  <div><button className='introbutton' style={{backgroundColor:'black', color:'white'}}>Download CV</button></div>
                 </div> 
             </Box>
             <div style={{margin:'auto'}}>

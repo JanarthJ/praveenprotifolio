@@ -14,8 +14,8 @@
     font-family: 'Sen !important';
 }
 .SkillsDiv{
-    width: 45%;
-    min-height: 250px;
+    width: 50%;
+    min-height: 400px;
     height: 100%;
     background-color: transparent;
     margin:auto;
@@ -37,25 +37,31 @@
     width: 100%;
     height: 100%;
     backface-visibility: hidden;
+    border-radius: 7px;
 }
 
 .frontendDiv{
     background-image: url('../../assets/background2.jpg');
     padding: 20%;
+    font-weight: 50 !important;
     /* transform: rotateY(180deg); */
+    color: black;
 }
 
 .backendDiv{
-    background-color: blueviolet;
+    background-color: rgb(236, 136, 90);
     transform: rotateY(180deg);
+    padding: 10%;
+
+
 }
 
 .SkillsDiv:hover .innerDiv{
     transform:  rotateY(180deg);
 }
 
-
-
+.stylefront{
+    padding: 5%;}
 
 
 /* Media query for desktop */

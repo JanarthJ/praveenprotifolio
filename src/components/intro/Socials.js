@@ -7,6 +7,7 @@ import insta from '../../assets/Insta.png'
 import linkin from '../../assets/LinkedIn.png'
 import github from '../../assets/Github.png'
 import gmail from '../../assets/Gmail.png'
+import youtube from '../../assets/youtube.png'
 export default function Socials() {
   return (
     <div style={{marginTop:'10px'}}>
@@ -28,7 +29,7 @@ export default function Socials() {
         src={gmail} />
       <Avatar 
        className='avatarimg' 
-        src="/broken-image.jpg" />
+        src={youtube} />
 
     </Stack>
     </div>

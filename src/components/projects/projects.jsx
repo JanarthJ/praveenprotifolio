@@ -31,7 +31,7 @@ export default function Projects(props) {
       </CardActionArea>
       <CardActions>
         <Button size="small" color="primary" style={{color:'white'}}>
-          Read more
+          See more
         </Button>
       </CardActions>
     </Card>

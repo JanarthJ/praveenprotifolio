@@ -66,11 +66,11 @@ function Header(props) {
           <Typography
             variant="h4"
             component="div"
-            sx={{ flexGrow: 1, display: { xs: 'none', sm: 'block' }, fontWeight:'bold'}}
+            sx={{ flexGrow: 1, display: { xs: 'none', sm: 'block' }, fontWeight:'bolder'}}
           >
             Portfolio.
           </Typography>
-          <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
+          <Box className="Navelements" sx={{ display: { xs: 'none', sm: 'block' }}}>
             {navItems.map((item) => (
               <Button key={item} sx={{ color: '#fff' }}>
                 {item}

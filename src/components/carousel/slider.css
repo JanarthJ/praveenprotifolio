@@ -1,6 +1,7 @@
 
 .slidermainDiv{
     margin: 2%;
+    margin-top: 8% !important;
     padding: 2%;
     color: white;
 }
@@ -10,6 +11,7 @@
     color: white !important;
     margin-bottom: 1rem;
     font-size: 2vw;
+    font-weight: bolder;
 }
 
 /* Media query for desktop */

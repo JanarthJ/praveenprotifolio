@@ -4,6 +4,12 @@
     background-color: black !important;
     padding-left: 2% !important;
     padding-right: 2% !important;
-    padding-top: 0% !important;
-    padding-bottom: 0% !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+}
+
+.Navelements{
+    font-weight: 100 !important;
+    font-style: normal;
+    font-size:larger !important;
 }

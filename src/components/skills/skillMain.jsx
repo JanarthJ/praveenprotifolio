@@ -5,13 +5,14 @@ import "./skills.css";
 function SkillMain(){
     return(
         <div className="skillsTopDiv">
-            <div className="skillHeader" style={{color:'white', fontFamily:'Sen', textAlign:'center'}}>Skills</div>
+            <div className="skillHeader" style={{color:'white', textAlign:'center',fontWeight:'bolder'}}>Skills</div>
             <div className="skillMainDiv">  
-                <Skills 
+                <Skills
                 role={"Front End Developer"} 
-                skillList={['HTML','CSS','JAVASCRIPT','REACT']}
+                skillList={['Html','CSS','Javascript','ReactJs','MaterialUI','Figma']}
                 />
-                <Skills role={"Photographer"}
+                <Skills 
+                role={"Photographer"}
                 skillList={['Adobe Photoshop','Adobe PremierPro','Adobe After Effects','Canva','Davinci Resolve']}
                 />       
             </div>    
