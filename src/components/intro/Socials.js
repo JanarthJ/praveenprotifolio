@@ -3,26 +3,29 @@ import Avatar from '@mui/material/Avatar';
 import Stack from '@mui/material/Stack';
 import { deepOrange } from '@mui/material/colors';
 import "./intro.css";
-
+import insta from '../../assets/Insta.png'
+import linkin from '../../assets/LinkedIn.png'
+import github from '../../assets/Github.png'
+import gmail from '../../assets/Gmail.png'
 export default function Socials() {
   return (
     <div style={{marginTop:'10px'}}>
     <Stack direction="row" spacing={2}>
       <Avatar
        className='avatarimg'
-       src="/broken-image.jpg"
+       src={linkin}
       >
       </Avatar>
       <Avatar
         className='avatarimg'   
-        src="/broken-image.jpg"
+        src={github}
       />
       <Avatar 
         className='avatarimg'   
-        src="/broken-image.jpg" />
+        src={insta} />
       <Avatar 
         className='avatarimg'   
-        src="/broken-image.jpg" />
+        src={gmail} />
       <Avatar 
        className='avatarimg' 
         src="/broken-image.jpg" />

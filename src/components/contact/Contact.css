@@ -18,8 +18,8 @@
 /* //left side  */
 .ContactEmail{
     display: grid;
-    grid-template-rows: 0.1fr 0.1fr 0.4fr;
-    row-gap: 10px;
+    grid-template-rows: 0.1fr 0.1fr 0.1fr;
+    /* row-gap: 10px; */
 }  
 .contact-lets{
     margin-top: 25px;

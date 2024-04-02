@@ -1,13 +1,15 @@
 /* style={{display : 'grid', gridTemplateColumns: '2fr 2fr 2fr', width: '100%', margin:'auto'}} */
 .projectsMain{
     width: 100%;
-    margin: 2%;
+    /* margin: 2%; */
     padding: 2%;
     display: grid;
     grid-template-rows: auto auto ;
 }
 .projectsElements{    
     display: grid;
+    margin: auto;
+    column-gap: 100px;
 }
 .projectsHead{
     color: white;
@@ -15,6 +17,7 @@
     font-weight: bold;
     padding-bottom:2% ;
     text-align: center;
+    width: 100%;
 }
 
 

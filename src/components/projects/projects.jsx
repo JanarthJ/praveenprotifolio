@@ -5,7 +5,7 @@ import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { Button, CardActionArea, CardActions } from '@mui/material';
 
-export default function Projects() {
+export default function Projects(props) {
   return (
     <Card sx={{ maxWidth: 345, backgroundColor:'black',border:'1px solid white',boxShadow: 'rgba(255, 255, 255, 0.25) 0px 54px 55px, rgba(255, 255, 255, 0.12) 0px -12px 30px, rgba(255, 255, 255, 0.12) 0px 4px 6px, rgba(255, 255, 255, 0.17) 0px 12px 13px, rgba(255, 255, 255, 0.09) 0px -3px 5px'}}>
       <CardActionArea>
@@ -17,17 +17,21 @@ export default function Projects() {
         />
         <CardContent>
           <Typography sx={{color:'white'}} gutterBottom variant="h5" component="div">
-            Lizard
+            <p>{props.title}</p>
           </Typography>
           <Typography variant="body2" color="white">
-            Lizards are a widespread group of squamate reptiles, with over 6,000
+            <div><h4>{props.Lang}</h4></div>
+            <br></br>
+            <div>Lizards are a widespread group of squamate reptiles, with over 6,000
             species, ranging across all continents except Antarctica
+            </div>
+    
           </Typography>
         </CardContent>
       </CardActionArea>
       <CardActions>
-        <Button size="small" color="primary">
-          Share
+        <Button size="small" color="primary" style={{color:'white'}}>
+          Read more
         </Button>
       </CardActions>
     </Card>

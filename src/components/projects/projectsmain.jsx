@@ -4,11 +4,20 @@ import "./project.css"
 function Projectsmain(){
     return(
         <div className="projectsMain">
-            <span className="projectsHead">Projects</span><br/>
+            <div className="projectsHead">Projects</div><br/>
         <div className="projectsElements" >
-            <Projects/>
-            <Projects/>
-            <Projects/>
+            <Projects
+            Lang={'HTML/CSS'}
+            title={'E-commerce landing page'}
+            description={'lakasldaljd'}
+            />
+            <Projects  
+            Lang={'Javascript'}
+            title={'Sign In page'}
+            description={'lakasldaljd'}/>
+            <Projects Lang={'Figma'}
+            title={'Portfolio Design'}
+            description={'lakasldaljd'}/>
         </div>
         </div>
     )

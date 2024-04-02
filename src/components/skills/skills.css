@@ -14,7 +14,7 @@
     font-family: 'Sen !important';
 }
 .SkillsDiv{
-    width: 40%;
+    width: 45%;
     min-height: 250px;
     height: 100%;
     background-color: transparent;
@@ -40,7 +40,8 @@
 }
 
 .frontendDiv{
-    background-color: aqua;
+    background-image: url('../../assets/background2.jpg');
+    padding: 20%;
     /* transform: rotateY(180deg); */
 }
 
@@ -52,7 +53,6 @@
 .SkillsDiv:hover .innerDiv{
     transform:  rotateY(180deg);
 }
-
 
 
 
