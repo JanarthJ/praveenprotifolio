@@ -5,8 +5,8 @@ export default function Contactme(){
             <div className="contactHead">Contact Me</div>
         <div className="contactMaindiv">
             <div className="ContactEmail" >
-                <span>Let's stay</span><br/>
-                <span>Connected</span>
+                <div className="contact-lets">Let's stay</div>
+                <div className="contact-con">Connected</div>
                 <div className="perEmail">
                     <img src="" alt="email"></img>
                     <div>

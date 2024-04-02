@@ -15,7 +15,21 @@
     color: white;
     margin: 2%;
 }
+/* //left side  */
+.ContactEmail{
+    display: grid;
+    grid-template-rows: 0.1fr 0.1fr 0.4fr;
+    row-gap: 10px;
+}  
+.contact-lets{
+    margin-top: 25px;
+} 
+.contact-con{
+    font-size: 4vw;
+    color:#fff500;
+}
 
+/* right side */
 .contactBox{
     display: grid;
     grid-template-rows: auto auto auto;
@@ -24,7 +38,7 @@
     padding: 5%;
     margin: 2%;
     width: 30vw;
-    border-radius: 7px;
+    border-radius: 3px;
     color: black;
     font-weight:bold;
 }
@@ -88,16 +102,20 @@ input,textarea{
         color: white;
         /* margin-bottom: 2%; */
     }
+    .contact-con{
+        font-size: 7vw;
+        color:#fff500;
+    }
 
     .contactBox{
         display: grid;
         grid-template-rows: auto auto auto;
         row-gap: 5px;
         background-color: #D8DAF6;
-        padding: 2%;
-        margin: 2%;
+        padding: 5%;
+        margin: 0%;
         width: 100%;
-        border-radius: 7px;
+        border-radius: 3px;
         color: black;
         font-weight:bold;
     }
