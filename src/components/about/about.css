@@ -16,3 +16,36 @@
     margin: 20px;
     font-size: 1.3vw;
 }
+
+/* Media query for desktop */
+@media (min-width: 1024px) {
+    
+}
+
+/* Media query for tablet */
+@media (min-width: 768px) and (max-width: 1023px) {
+    
+}
+
+/* Media query for mobile */
+@media (max-width: 767px) {  
+    .aboutMaindiv{
+        color: white;
+        padding: 2%;
+        margin: auto;
+        background-color: #171717;
+        width: 100%;
+    }
+    .aboutHeader{
+        font-size: 5vw;
+    }
+    .aboutInnerdiv1{
+        margin: 15px;
+    }
+    
+    .aboutInnerdiv2{
+        margin: 20px;
+        font-size: 2vw;
+        text-align: justify;
+    }
+}

@@ -13,6 +13,7 @@ import Img1 from '../../assets/1.jpg';
 import Img2 from '../../assets/2.jpg';
 import Img3 from '../../assets/3.jpg';
 import Img4 from '../../assets/4.jpg';
+import "./slider.css";
 
 
 const AutoPlaySwipeableViews = autoPlay(SwipeableViews);
@@ -57,8 +58,8 @@ function Imgslider() {
   };
 
   return (
-    <div style={{margin:'2%',padding:'2%'}}>
-      <div style={{color:'white', textAlign:'center'}}> Photography</div>
+    <div className='slidermainDiv'>
+      <div className='sliderMainHeading'> Photography</div>
     <Box sx={{ maxWidth: '100%', flexGrow: 1, margin:'auto' }}>
       <Paper
         
@@ -73,8 +74,11 @@ function Imgslider() {
           color:'white'
         }}
       >
-        <Typography>{images[activeStep].label}</Typography>
-        <button>View Project</button>
+        <Typography>
+          {images[activeStep].label}
+          {" "} <u>View More</u>
+        </Typography>
+        
       </Paper>
       <AutoPlaySwipeableViews
         axis={theme.direction === 'rtl' ? 'x-reverse' : 'x'}

@@ -9,11 +9,11 @@ function Intro() {
       <div className="Intro-MainDiv" style={{marginTop:"80px"}}>
             <Box className='Intro-boxMain' component="section">
                 <div className='introclasscont'>
-                  <span className='introHello'>Hello, This is</span>
-                  <span className='introPraveen'>Praveen N</span>
-                  <span className='introfront'>Front End Developer</span>
+                  <div className='introHello'>Hello, This is</div>
+                  <div className='introPraveen'>Praveen N</div>
+                  <div className='introfront'>Front End Developer</div>
                   <Socials className="socials"></Socials>
-                  <button className='introbutton'>Download CV</button>
+                  <div><button className='introbutton'>Download CV</button></div>
                 </div> 
             </Box>
             <div style={{margin:'auto'}}>

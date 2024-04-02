@@ -1,0 +1,33 @@
+
+.slidermainDiv{
+    margin: 2%;
+    padding: 2%;
+    color: white;
+}
+
+.sliderMainHeading{
+    text-align: center !important;
+    color: white !important;
+    margin-bottom: 1rem;
+    font-size: 2vw;
+}
+
+/* Media query for desktop */
+@media (min-width: 1024px) {
+    
+}
+
+/* Media query for tablet */
+@media (min-width: 768px) and (max-width: 1023px) {
+    
+}
+
+/* Media query for mobile */
+@media (max-width: 767px) {
+    .sliderMainHeading{
+        text-align: center !important;
+        color: white !important;
+        margin-bottom: 1rem;
+        font-size: 5vw;
+    }
+}

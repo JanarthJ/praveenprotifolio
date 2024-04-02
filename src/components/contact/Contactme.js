@@ -19,19 +19,24 @@ export default function Contactme(){
             </div>
             <div className="contactForm">
                 <div className="contactBox" >
-                <span>Send me your queries</span><br/>
-                <div className="contactElements contactRows contactCols" >
-                <label htmlFor="guestName">Name</label>
-                <input id="guestName" placeholder="Name" type="type"></input><br/>
-                <label htmlFor="guestEmail">Email</label>
-                <input id="guestEmail" placeholder="email" type="Email"></input><br/>
-                <label htmlFor="guestMsg">Message</label>
-                <input id="guestMsg" placeholder="Message" type="type" style={{height:'30vh',width:'20vw'}}></input><br/>
-                </div>
-                <div className="contactButton">
-                <button>Submit</button>
-                <button>Reset</button>
-                </div>
+                    <div>Send me your queries</div>
+                    <div className="contactElements" >
+                        <div className="contactinputDiv">
+                            <label htmlFor="guestName">Name </label>
+                            <input id="guestName" placeholder="Name" type="type"></input><br/>
+                        </div>
+                        <div className="contactinputDiv">
+                            <label htmlFor="guestEmail">Email  </label>
+                            <input id="guestEmail" placeholder="email" type="Email"></input><br/>
+                        </div>
+                        <div className="contactinputDiv">
+                            <label htmlFor="guestMsg">Message </label>
+                            <textarea id="guestMsg" rows={5} placeholder="Message" type="type" ></textarea><br/>
+                        </div>
+                    </div>
+                    <div className="contactButton">
+                        <button className="contactButtons">Submit</button>
+                    </div>
                 </div>
             </div>
         </div>

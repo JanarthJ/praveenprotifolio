@@ -1,0 +1,27 @@
+.mainHeadDiv{
+    display: grid;
+    grid-template-rows: 0.1fr auto auto auto auto 3.1fr 2.1fr !important;
+    background-color: black;    
+    width: 100%;
+    overflow-x: hidden;
+}
+
+/* Media query for desktop */
+@media (min-width: 1024px) {
+    
+}
+
+/* Media query for tablet */
+@media (min-width: 768px) and (max-width: 1023px) {
+    
+}
+
+/* Media query for mobile */
+@media (max-width: 767px) {
+    .mainHeadDiv{
+        display: grid;
+        grid-template-rows: 0.4fr auto auto auto auto auto 2.1fr !important;
+        background-color: black;    
+    }
+    
+}

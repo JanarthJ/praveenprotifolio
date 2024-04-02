@@ -20,6 +20,7 @@
     background-color: transparent;
     margin:auto;
     perspective: 1000px;
+    font-size: 1.5vw;
 }
 
 /* flip code  */
@@ -57,10 +58,40 @@
 
 
 
+/* Media query for desktop */
+@media (min-width: 1024px) {
+    
+}
 
-/* SkillMain css */
-/* .skillMainDiv{
-    display: grid;
-    grid-template-columns: 6fr 6fr;
-    column-gap: 0.5rem;
-} */
+/* Media query for tablet */
+@media (min-width: 768px) and (max-width: 1023px) {
+    
+}
+
+/* Media query for mobile */
+@media (max-width: 767px) {
+    .skillsTopDiv{
+        margin:2% !important;
+        padding: 2% !important;
+    }
+    .skillMainDiv{
+        margin:2% !important;
+        padding: 2% !important;
+        display: grid;
+        grid-template-columns: 6fr 6fr;
+    }
+    .skillHeader{
+        font-size: 5vw;
+        color: white;
+        font-family: 'Sen !important';
+    }
+    .SkillsDiv{
+        width: 80%;
+        min-height: 200px;
+        height: 100%;
+        background-color: transparent;
+        margin:auto;
+        perspective: 1000px;
+        font-size: 3vw;
+    }
+}

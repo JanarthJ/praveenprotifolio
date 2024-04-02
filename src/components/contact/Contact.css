@@ -1,26 +1,25 @@
 .Contactouterdiv{
     display: grid;
-    grid-template-rows: 1fr 11fr;
-    margin: 2%;
+    grid-template-rows: 1fr 11fr;   
     padding: 2%;
+    padding-top: 0px;
 }
 
 .contactHead{
-    font-weight: bolder;
-    font-size: large;
+    font-size: 3vw;
     color: white;
     text-align: center;
 }
 .contactMaindiv{
     display: grid;
-    grid-template-columns: 6fr 6fr;
     color: white;
-    /* margin: auto; */
+    margin: 2%;
 }
-.contactForm{
-    position: relative;
-}
+
 .contactBox{
+    display: grid;
+    grid-template-rows: auto auto auto;
+    row-gap: 20px;
     background-color: #D8DAF6;
     padding: 5%;
     margin: 2%;
@@ -28,32 +27,105 @@
     border-radius: 7px;
     color: black;
     font-weight:bold;
-    position: absolute;
+}
+.contactElements{
+    display: grid;
+    row-gap: 10px;
 }
 
-.contactElements{
-    margin-top: 20px;
-}
-.contactRows{
-    display: flex;
-    flex-direction: column;
-}
-.contactCols{
+.contactinputDiv{
     display: grid;
-    grid-template-columns: 2fr 2fr 4fr;
-    gap: 15px;
+    grid-template-columns: 4fr 8fr;
 }
 
 .contactButton{
-   display: flex;
-   flex-direction: row;
-   column-gap: 18px;
-   margin-top: 10px;
-   position: absolute;
-   right: 75px;
+    display: flex;
+    flex-direction: row-reverse;   
+
 }
-input{
+.contactButtons{
+    padding: 5px;
+    
+}
+input,textarea{
     border-radius: 5px;
     border: 0px;
     background-color: #807E7E;
 }
+
+/* Media query for desktop */
+@media (min-width: 1024px) {
+    .contactMaindiv{
+        grid-template-columns: 6fr 6fr;       
+    }
+}
+
+/* Media query for tablet */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .contactMaindiv{
+        grid-template-columns: 6fr 6fr;      
+    }
+}
+
+/* Media query for mobile */
+@media (max-width: 767px) {    
+    .Contactouterdiv{
+        display: grid;
+        grid-template-rows: 1fr 11fr;
+        margin: 2%;
+        padding: 2%;
+    }
+    
+    .contactHead{
+        font-size: 5vw;
+        color: white;
+        text-align: center;
+    }
+
+    .contactMaindiv{
+        display: grid;
+        grid-template-rows: 6fr 6fr  !important;
+        color: white;
+        /* margin-bottom: 2%; */
+    }
+
+    .contactBox{
+        display: grid;
+        grid-template-rows: auto auto auto;
+        row-gap: 5px;
+        background-color: #D8DAF6;
+        padding: 2%;
+        margin: 2%;
+        width: 100%;
+        border-radius: 7px;
+        color: black;
+        font-weight:bold;
+    }
+    .contactElements{
+        display: grid;
+        row-gap: 10px;
+    }
+    
+    .contactinputDiv{
+        display: grid;
+        grid-template-columns: 4fr 8fr;
+    }
+    
+    .contactButton{
+        display: flex;
+        flex-direction: row-reverse;   
+    
+    }
+    .contactButtons{
+        padding: 5px;
+        
+    }
+    input,textarea{
+        border-radius: 5px;
+        border: 0px;
+        background-color: #807E7E;
+    }
+
+
+}
+
