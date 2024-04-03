@@ -22,8 +22,7 @@ export default function Projects(props) {
           <Typography variant="body2" color="white">
             <div><h4>{props.Lang}</h4></div>
             <br></br>
-            <div>Lizards are a widespread group of squamate reptiles, with over 6,000
-            species, ranging across all continents except Antarctica
+            <div>{props.description}
             </div>
     
           </Typography>
