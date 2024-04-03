@@ -19,23 +19,32 @@
 /* //left side  */
 .ContactEmail{
     display: grid;
-    grid-template-rows: 0.1fr 0.1fr 0.1fr;
+    grid-template-rows: 0.01fr 0.1fr 0.1fr;
+    margin-left: 250px !important;
+    margin-top: 50px;
     /* row-gap: 10px; */
 }  
 .contact-lets{
     margin-top: 25px;
+    font-weight: bold;
+    font-size:x-large;
 } 
 .contact-con{
     font-size: 4vw;
     color:#fff500;
 }
+.perEmail{
+    display: flex;
+    flex-direction: row;
+    gap:10px
 
+}
 /* right side */
 .contactBox{
     display: grid;
     grid-template-rows: auto auto auto;
     row-gap: 20px;
-    background-color: #D8DAF6;
+    background-color: #a3ff90;
     padding: 5%;
     margin: 2%;
     width: 30vw;
@@ -65,7 +74,7 @@
 input,textarea{
     border-radius: 5px;
     border: 0px;
-    background-color: #807E7E;
+    background-color: #e6e6e6;
 }
 
 /* Media query for desktop */

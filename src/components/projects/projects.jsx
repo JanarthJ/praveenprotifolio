@@ -12,7 +12,7 @@ export default function Projects(props) {
         <CardMedia
           component="img"
           height="140"
-          image="/static/images/cards/contemplative-reptile.jpg"
+          image={props.imgsource}
           alt="green iguana"
         />
         <CardContent>

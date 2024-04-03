@@ -1,5 +1,8 @@
 import Projects from "./projects";
 import "./project.css"
+import Htmlcssimg from "../../assets/htmlcss.jpg";
+import Javascriptimg from "../../assets/javascript.jpg";
+import Figma from "../../assets/figma.jpg";
 
 function Projectsmain(){
     return(
@@ -10,14 +13,17 @@ function Projectsmain(){
             Lang={'HTML/CSS'}
             title={'E-commerce landing page'}
             description={'lakasldaljd'}
+            imgsource={Htmlcssimg}
             />
             <Projects  
             Lang={'Javascript'}
             title={'Sign In page'}
-            description={'lakasldaljd'}/>
+            description={'lakasldaljd'}
+            imgsource={Javascriptimg}/>
             <Projects Lang={'Figma'}
             title={'Portfolio Design'}
-            description={'lakasldaljd'}/>
+            description={'lakasldaljd'}
+            imgsource={Figma}/>
         </div>
         </div>
     )

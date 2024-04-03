@@ -1,4 +1,5 @@
 import "./Contact.css"
+import email from "../../assets/email.png"
 export default function Contactme(){
     return(
         <div className="Contactouterdiv">
@@ -8,7 +9,7 @@ export default function Contactme(){
                 <div className="contact-lets">Let's stay</div>
                 <div className="contact-con">Connected</div>
                 <div className="perEmail">
-                    <img src="" alt="email"></img>
+                    <img src={email} height="45px" width="45px" alt="email"></img>
                     <div>
                         Email me at <br/>
                         <span style={{color: "blue"}}>praveen17mails@gmail.com</span> 
