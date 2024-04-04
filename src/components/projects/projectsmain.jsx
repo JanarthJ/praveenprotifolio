@@ -12,17 +12,17 @@ function Projectsmain(){
             <Projects
             Lang={'HTML/CSS'}
             title={'E-commerce landing page'}
-            description={"Craft an e-commerce landing page for Vincent van Gogh's artworks using HTML and CSS. Include sections for featured artworks, product categories, artist bio, and a call-to-action. Ensure responsive design, engaging visuals, and seamless e-commerce functionalities. Maintain UX and accessibility standards for an optimal browsing and shopping experience."}
+            description={"Create an e-commerce page showcasing Vincent van Gogh's artworks using HTML/CSS. Features include sections for featured pieces, product categories, and a simple checkout. Prioritize responsive design and UX for seamless browsing and purchasing."}
             imgsource={Htmlcssimg}
             />
             <Projects  
             Lang={'Javascript'}
             title={'Sign In page'}
-            description={"Craft an e-commerce landing page for Vincent van Gogh's artworks using HTML and CSS. Include sections for featured artworks, product categories, artist bio, and a call-to-action. Ensure responsive design, engaging visuals, and seamless e-commerce functionalities. Maintain UX and accessibility standards for an optimal browsing and shopping experience."}
+            description={"Create a dynamic sign-in page using JavaScript for robust form validation. Ensure accurate input and feedback, enhancing user experience with seamless transitions and error handling for a smooth sign-in process."}
             imgsource={Javascriptimg}/>
             <Projects Lang={'Figma'}
             title={'Portfolio Design'}
-            description={"Craft an e-commerce landing page for Vincent van Gogh's artworks using HTML and CSS. Include sections for featured artworks, product categories, artist bio, and a call-to-action. Ensure responsive design, engaging visuals, and seamless e-commerce functionalities. Maintain UX and accessibility standards for an optimal browsing and shopping experience."}
+            description={"Create a captivating portfolio layout using Figma, showcasing projects, skills, and experiences. Utilize Figma's tools for seamless prototyping and collaboration, ensuring a visually appealing and user-friendly design."}
             imgsource={Figma}/>
         </div>
         </div>

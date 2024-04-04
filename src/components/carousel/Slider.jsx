@@ -10,25 +10,12 @@ import KeyboardArrowRight from '@mui/icons-material/KeyboardArrowRight';
 import SwipeableViews from 'react-swipeable-views';
 import { autoPlay } from 'react-swipeable-views-utils';
 import Img1 from '../../assets/slider1.JPG'
-import Img2 from '../../assets/slider2.JPG';
 import Img3 from '../../assets/slider3.JPG';
 import Img4 from '../../assets/slider4.JPG';
 import Img5 from '../../assets/slider5.JPG';
-import Img6 from '../../assets/slider6.JPG';
-// import Img7 from '../../assets/slider7.JPG';
 import Img8 from '../../assets/slider8.JPG';
-import Img9 from '../../assets/slider9.jpg';
-import Img10 from '../../assets/slider10.jpg';
-import Img11 from '../../assets/slider11.jpg';
-import Img12 from '../../assets/slider12.jpg';
-import Img13 from '../../assets/slider13.jpg';
 import Img14 from '../../assets/slider14.jpg';
-// import Img15 from '../../assets/slider15.jpg';
-// import Img16 from '../../assets/slider16.jpg';
-import Img17 from '../../assets/slider17.JPG';
-import Img18 from '../../assets/slider18.JPG';
 import Img19 from '../../assets/slider19.JPG';
-import Img20 from '../../assets/slider20.JPG';
 
 
 import "./slider.css";
@@ -38,103 +25,38 @@ const AutoPlaySwipeableViews = autoPlay(SwipeableViews);
 
 const images = [
   {
-    label: 'San Francisco – Oakland Bay Bridge, United States',
+    label: 'Kalankari - Play at Medai - The Stage Chennai',
     imgPath: Img1,
   },
   {
-    label: 'Bird',
-    imgPath:
-      Img2,
-  },
-  {
-    label: 'Bali, Indonesia',
+    label: 'Kalankari - Play at Medai - The Stage Chennai',
     imgPath:
      Img3,
   },
   {
-    label: 'Goč, Serbia',
+    label: 'Kalankari - Play at Medai - The Stage Chennai',
     imgPath:
       Img4,
   },
   {
-    label: 'Goč, Serbia',
+    label:'Kalankari - Play at Medai - The Stage Chennai',
     imgPath:
       Img5,
   },
   {
-    label: 'Goč, Serbia',
-    imgPath:
-      Img6,
-  },
-  {
-    // label: 'Goč, Serbia',
-    // imgPath:
-    //   Img7,
-  },
-  {
-    label: 'Goč, Serbia',
+    label: 'Product Photoshoot for The Rams Restaurant - Trichy',
     imgPath:
       Img8,
   },
   {
-    label: 'Goč, Serbia',
-    imgPath:
-      Img9,
-  },
-  {
-    label: 'Goč, Serbia',
-    imgPath:
-      Img10,
-  },
-  {
-    label: 'Goč, Serbia',
-    imgPath:
-      Img11,
-  },
-  {
-    label: 'Goč, Serbia',
-    imgPath:
-      Img12,
-  },
-  {
-    label: 'Goč, Serbia',
-    imgPath:
-      Img13,
-  },
-  {
-    label: 'Goč, Serbia',
+    label: 'Product Photoshoot for The Rams Restaurant - Trichy',
     imgPath:
       Img14,
   },
-  // {
-  //   label: 'Goč, Serbia',
-  //   imgPath:
-  //     Img15,
-  // },
-  // {
-  //   label: 'Goč, Serbia',
-  //   imgPath:
-  //     Img16,
-  // },
   {
-    label: 'Goč, Serbia',
-    imgPath:
-      Img17,
-  },
-  {
-    label: 'Goč, Serbia',
-    imgPath:
-      Img18,
-  },
-  {
-    label: 'Goč, Serbia',
+    label: 'Malhar - Play at Medai - The Stage Chennai',
     imgPath:
       Img19,
-  },
-  {
-    label: 'Goč, Serbia',
-    imgPath:
-      Img20,
   },
 ];
 
@@ -174,7 +96,7 @@ function Imgslider() {
       >
         <Typography>
           {images[activeStep].label}
-          {" "} <u>View More</u>
+          {" "}
         </Typography>
         
       </Paper>

@@ -1,5 +1,4 @@
 import "./skills.css";
-import imgback from "../../assets/background.png"
 
 //child
 function Skills(props){
@@ -7,7 +6,10 @@ function Skills(props){
         <div className="SkillsDiv">
             <div className="innerDiv">
                 <div className="frontendDiv stylefront">
+                        <div>
+                            <img src={props.bimg}/>
                         <p>{props.role}</p>
+                        </div>
                 </div>
                 <div className="backendDiv">
                     <ul>

@@ -41,7 +41,8 @@
 }
 
 .frontendDiv{
-    background-image: url('../../assets/background2.jpg');
+    /* background-image: url('../../assets/background2.jpg'); */
+    position:absolute;
     padding: 20%;
     font-weight: 50 !important;
     /* transform: rotateY(180deg); */
@@ -49,7 +50,7 @@
 }
 
 .backendDiv{
-    background-color: rgb(209, 142, 95);
+    background-color: rgb(153, 192, 154);
     color: black;
     transform: rotateY(180deg);
     padding: 10%;

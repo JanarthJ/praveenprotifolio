@@ -11,7 +11,7 @@ export default function Projects(props) {
       <CardActionArea>
         <CardMedia
           component="img"
-          height="140"
+          height="160"
           image={props.imgsource}
           alt="green iguana"
         />
