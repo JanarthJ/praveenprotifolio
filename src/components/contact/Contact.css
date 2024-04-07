@@ -154,6 +154,28 @@ input,textarea{
         background-color: #807E7E;
     }
 
+    /* //left side  */
+    .ContactEmail{
+        display: grid;
+        grid-template-rows: 0.01fr 0.1fr 0.1fr;
+        margin-left: 0px !important;
+        margin-top: 10px;
+        /* row-gap: 10px; */
+    }  
+    .contact-lets{
+        margin-top: 25px;
+        font-weight: bold;
+        font-size:x-large;
+    } 
+    .contact-con{
+        font-size: 4vw;
+        color:#fff500;
+    }
+    .perEmail{
+        display: flex;
+        flex-direction: row;
+        gap:10px
 
+    }
 }
 

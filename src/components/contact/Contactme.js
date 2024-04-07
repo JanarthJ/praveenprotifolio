@@ -8,15 +8,20 @@ export default function Contactme(){
             <div className="ContactEmail" >
                 <div className="contact-lets">Let's stay</div>
                 <div className="contact-con">Connected</div>
-                <div className="perEmail">
-                    <img src={email} height="45px" width="45px" alt="email"></img>
-                    <div>
-                        Email me at <br/>
-                        <span style={{color: "blue"}}>praveen17mails@gmail.com</span> 
-
+                    <div className="perEmail">
+                        <img src={email} height="45px" width="45px" alt="email"></img>
+                        <div>
+                            Email me at <br/>
+                            <span style={{color: "blue"}}>praveen17mails@gmail.com</span> 
+                        </div>                    
                     </div>
-                </div>
-                
+                    {/* <div className="perEmail">
+                        <img src={email} height="45px" width="45px" alt="email"></img>
+                        <div>
+                            Address <br/>
+                            <span style={{color: "blue"}}>Kattur, Trichy</span> 
+                        </div>                    
+                    </div>                 */}
             </div>
             <div className="contactForm">
                 <div className="contactBox" >

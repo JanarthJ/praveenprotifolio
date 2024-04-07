@@ -5,8 +5,7 @@
 .skillMainDiv{
     margin:2% !important;
     padding: 2% !important;
-    display: grid;
-    grid-template-columns: 6fr 6fr;
+    display: grid;    
 }
 .skillHeader{
     font-size: 2vw;
@@ -68,12 +67,22 @@
 
 /* Media query for desktop */
 @media (min-width: 1024px) {
-    
+    .skillMainDiv{
+        margin:2% !important;
+        padding: 2% !important;
+        display: grid;   
+        grid-template-columns: 6fr 6fr; 
+    }
 }
 
 /* Media query for tablet */
 @media (min-width: 768px) and (max-width: 1023px) {
-    
+    .skillMainDiv{
+        margin:2% !important;
+        padding: 2% !important;
+        display: grid;    
+        grid-template-columns: 6fr 6fr; 
+    }
 }
 
 /* Media query for mobile */
@@ -86,7 +95,8 @@
         margin:2% !important;
         padding: 2% !important;
         display: grid;
-        grid-template-columns: 6fr 6fr;
+        grid-template-rows: 6fr 6fr !important;
+        row-gap: 4rem;
     }
     .skillHeader{
         font-size: 5vw;
@@ -101,5 +111,9 @@
         margin:auto;
         perspective: 1000px;
         font-size: 3vw;
+    }
+    .frontendDiv img{
+        width: 65vw;
+        height: 25vh;
     }
 }
