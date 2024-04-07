@@ -6,6 +6,7 @@ import Imgslider from "../carousel/Slider";
 import Contactme from "../contact/Contactme";
 import Projectsmain from "../projects/projectsmain";
 import "./main.css";
+import Footer from "../contact/footer";
 
 
 function Main() {
@@ -18,6 +19,7 @@ function Main() {
         <Projectsmain/>
         <Imgslider/>
         <Contactme/>
+        <Footer/>
       </div> 
     );
   }

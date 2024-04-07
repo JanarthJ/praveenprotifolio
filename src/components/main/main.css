@@ -1,6 +1,6 @@
 .mainHeadDiv{
     display: grid;
-    grid-template-rows: 0.1fr auto auto auto auto 3.1fr 2.1fr !important;
+    grid-template-rows: 0.1fr auto auto auto auto 3.1fr 1.5fr !important;
     background-color: black;    
     color: white;
     width: 100%;

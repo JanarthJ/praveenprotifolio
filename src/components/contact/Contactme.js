@@ -1,5 +1,6 @@
 import "./Contact.css"
 import email from "../../assets/email.png"
+import Socials from "../intro/Socials"
 export default function Contactme(){
     return(
         <div className="Contactouterdiv">
