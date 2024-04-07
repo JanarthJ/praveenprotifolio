@@ -60,7 +60,7 @@ const images = [
   },
 ];
 
-function Imgslider() {
+function Imgslider({ refProp }) {
   const theme = useTheme();
   const [activeStep, setActiveStep] = React.useState(0);
   const maxSteps = images.length;
@@ -78,7 +78,7 @@ function Imgslider() {
   };
 
   return (
-    <div className='slidermainDiv'>
+    <div ref={refProp} className='slidermainDiv'>
       <div className='sliderMainHeading'> Photography</div>
     <Box sx={{ maxWidth: '100%', flexGrow: 1, margin:'auto' }}>
       <Paper

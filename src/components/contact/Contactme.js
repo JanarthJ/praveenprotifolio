@@ -2,9 +2,9 @@ import "./Contact.css"
 import email from "../../assets/email.png";
 import LocationImg from "../../assets/Location.png";
 
-export default function Contactme(){
+export default function Contactme({ refProp }){
     return(
-        <div className="Contactouterdiv">
+        <div ref={refProp} className="Contactouterdiv">
             <div className="contactHead">Contact Me</div>
         <div className="contactMaindiv">
             <div className="ContactEmail" >

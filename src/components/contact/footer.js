@@ -1,9 +1,9 @@
 import './Contact.css';
 import MadeBy from './madeUsing';
 
-export default function Footer(){
+export default function Footer({ refProp }){
     return(        
-    <div className="madeusing" 
+    <div ref={refProp} className="madeusing" 
         style={{
             backgroundColor:'white', 
             color:'black',            

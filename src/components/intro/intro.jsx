@@ -6,9 +6,9 @@ import Socials from './Socials';
 import PraveenImg from "../../assets/Profile.jpg";
 
 
-function Intro() {
+function Intro({ refProp }) {
     return (
-      <div className="Intro-MainDiv" style={{marginTop:"80px"}}>
+      <div ref={refProp} className="Intro-MainDiv" style={{marginTop:"80px"}}>
             <Box className='Intro-boxMain' component="section">
                 <div className='introclasscont'>
                   <div className='introHello'>Hello, This is</div>
