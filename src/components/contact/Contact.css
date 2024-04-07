@@ -1,6 +1,6 @@
 .Contactouterdiv{
     display: grid;
-    grid-template-rows: 1fr 9fr 2fr;   
+    grid-template-rows: 1fr 11fr;   
     padding: 2%;
     padding-top: 0px;
 }
@@ -15,14 +15,15 @@
     display: grid;
     color: white;
     margin: 2%;
+    margin-bottom: 0px;
 }
 /* //left side  */
 .ContactEmail{
     display: grid;
-    grid-template-rows: 0.01fr 0.1fr 0.1fr;
+    grid-template-rows: 0.01fr 0.1fr 0.1fr 0.1fr;
     margin-left: 250px !important;
     margin-top: 50px;
-    /* row-gap: 10px; */
+    row-gap: 15px;
 }  
 .contact-lets{
     margin-top: 25px;
@@ -79,6 +80,7 @@ input,textarea{
 .madeusing{
     display: flex;
     flex-direction: column;
+    padding: 2%;
 }
 /* Media query for desktop */
 @media (min-width: 1024px) {
@@ -169,11 +171,7 @@ input,textarea{
         margin-top: 25px;
         font-weight: bold;
         font-size:x-large;
-    } 
-    .contact-con{
-        font-size: 4vw;
-        color:#fff500;
-    }
+    }     
     .perEmail{
         display: flex;
         flex-direction: row;

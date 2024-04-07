@@ -1,6 +1,5 @@
 import "./Contact.css"
 import email from "../../assets/email.png"
-import Socials from "../intro/Socials"
 export default function Contactme(){
     return(
         <div className="Contactouterdiv">
@@ -16,13 +15,13 @@ export default function Contactme(){
                             <span style={{color: "blue"}}>praveen17mails@gmail.com</span> 
                         </div>                    
                     </div>
-                    {/* <div className="perEmail">
+                    <div className="perEmail">
                         <img src={email} height="45px" width="45px" alt="email"></img>
                         <div>
                             Address <br/>
                             <span style={{color: "blue"}}>Kattur, Trichy</span> 
                         </div>                    
-                    </div>                 */}
+                    </div>                
             </div>
             <div className="contactForm">
                 <div className="contactBox" >
