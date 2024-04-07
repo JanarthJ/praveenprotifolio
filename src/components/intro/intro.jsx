@@ -3,6 +3,8 @@ import Box from '@mui/material/Box';
 import "./intro.css";
 import { Avatar } from '@mui/material';
 import Socials from './Socials';
+import PraveenImg from "../../assets/Profile.jpg";
+
 
 function Intro() {
     return (
@@ -20,8 +22,8 @@ function Intro() {
             </Box>
             <div style={{margin:'auto'}}>
                   <Avatar
-                    alt="Remy Sharp"
-                    src="/static/images/avatar/1.jpg"
+                    alt="Praveen"
+                    src={PraveenImg}
                     sx={{ width: '18vw', height: '18vw'}}          
                     // style={{position:"absolute",right:220,bottom:300}}         
                     />

@@ -1,5 +1,7 @@
 import "./Contact.css"
-import email from "../../assets/email.png"
+import email from "../../assets/email.png";
+import LocationImg from "../../assets/Location.png";
+
 export default function Contactme(){
     return(
         <div className="Contactouterdiv">
@@ -16,7 +18,8 @@ export default function Contactme(){
                         </div>                    
                     </div>
                     <div className="perEmail">
-                        <img src={email} height="45px" width="45px" alt="email"></img>
+                        <img src={LocationImg} 
+                        style={{backgroundColor:"white",borderRadius:"50%"}} height="45px" width="45px" alt="email"></img>
                         <div>
                             Address <br/>
                             <span style={{color: "blue"}}>Kattur, Trichy</span> 

@@ -28,6 +28,7 @@
     height: 35px;
     font-size: 13px;
     margin-top: 15px;
+    cursor: pointer;
 }
 
 .introHello{
@@ -47,6 +48,7 @@
 .avatarimg{
     width: 3vw !important;
     height: 3vw !important;
+    cursor: pointer;
 }
 /* Media query for desktop */
 @media (min-width: 1024px) {
