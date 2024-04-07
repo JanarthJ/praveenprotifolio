@@ -29,8 +29,11 @@ export default function Projects(props) {
         </CardContent>
       </CardActionArea>
       <CardActions>
-        <Button size="small" color="primary" style={{color:'white'}}>
-          See more
+        <Button size="small" color="primary" style={{color:'white'}}
+        onClick={()=>{
+          window.open(props.url,"_blank")
+        }}>
+          See more 
         </Button>
       </CardActions>
     </Card>
