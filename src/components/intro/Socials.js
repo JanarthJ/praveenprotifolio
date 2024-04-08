@@ -27,7 +27,7 @@ export default function Socials() {
       <Avatar
        className='avatarimg'
        src={linkin}
-       onClick={()=>linkhandler("https://www.google.com/")}
+       onClick={()=>linkhandler("https://www.linkedin.com/in/praveen-n-235870218/")}
       >
       </Avatar>
       <Avatar
