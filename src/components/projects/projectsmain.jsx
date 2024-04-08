@@ -4,9 +4,9 @@ import Htmlcssimg from "../../assets/htmlcss.jpg";
 import Javascriptimg from "../../assets/javascript.jpg";
 import Figma from "../../assets/figma.jpg";
 
-function Projectsmain(){
+function Projectsmain({ refProp } ){
     return(
-        <div className="projectsMain">
+        <div ref={refProp} className="projectsMain">
             <div className="projectsHead">Projects</div><br/>
         <div className="projectsElements" >
             <Projects

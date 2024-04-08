@@ -1,10 +1,10 @@
 import * as React from 'react';
 import "./about.css";
 
-export default function About() {
+export default function About({ refProp }) {
 
   return (
-      <div className='aboutMaindiv'>
+      <div ref={refProp} className='aboutMaindiv'>
         <div className='aboutInnerdiv1'>
         <p>
           <span className='aboutHeader'><b>About me</b></span>

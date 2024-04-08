@@ -35,13 +35,43 @@ function Header(props) {
       </Typography>
       <Divider />
       <List>
-        {navItems.map((item) => (
-          <ListItem key={item} disablePadding>
-            <ListItemButton sx={{ textAlign: 'center' }}>
-              <ListItemText primary={item} />
+        {/* {navItems.map((item,index) => ( */}
+          <ListItem key={1} disablePadding>
+            <ListItemButton onClick={props.scrollToSection1} sx={{ textAlign: 'center' }}>
+              <ListItemText>
+                Home
+              </ListItemText>
             </ListItemButton>
           </ListItem>
-        ))}
+          <ListItem key={2} disablePadding>
+            <ListItemButton onClick={props.scrollToSection2} sx={{ textAlign: 'center' }}>
+              <ListItemText>
+                About
+              </ListItemText>
+            </ListItemButton>
+          </ListItem>
+          <ListItem key={3} disablePadding>
+            <ListItemButton onClick={props.scrollToSection3} sx={{ textAlign: 'center' }}>
+              <ListItemText>
+                Skills
+              </ListItemText>
+            </ListItemButton>
+          </ListItem>
+          <ListItem key={4} disablePadding>
+            <ListItemButton onClick={props.scrollToSection4} sx={{ textAlign: 'center' }}>
+              <ListItemText>
+                Projects
+              </ListItemText>
+            </ListItemButton>
+          </ListItem>
+          <ListItem key={5} disablePadding>
+            <ListItemButton onClick={props.scrollToSection5} sx={{ textAlign: 'center' }}>
+              <ListItemText>
+                Contact Us
+              </ListItemText>
+            </ListItemButton>
+          </ListItem>
+        {/* ))} */}
       </List>
     </Box>
   );
@@ -71,11 +101,23 @@ function Header(props) {
             Portfolio.
           </Typography>
           <Box className="Navelements" sx={{ display: { xs: 'none', sm: 'block' }}}>
-            {navItems.map((item) => (
-              <Button key={item} sx={{ color: '#fff' }}>
-                {item}
+            
+              <Button key={1} onClick={props.scrollToSection1} sx={{ color: '#fff' }}>
+                Home
               </Button>
-            ))}
+              <Button key={2} onClick={props.scrollToSection2} sx={{ color: '#fff' }}>
+                About
+              </Button>
+              <Button key={3} onClick={props.scrollToSection3} sx={{ color: '#fff' }}>
+                Skills
+              </Button>
+              <Button key={4} onClick={props.scrollToSection4} sx={{ color: '#fff' }}>
+                Projects
+              </Button>
+              <Button key={5} onClick={props.scrollToSection5} sx={{ color: '#fff' }}>
+                Contact US
+              </Button>          
+           
           </Box>
         </Toolbar>
       </AppBar>

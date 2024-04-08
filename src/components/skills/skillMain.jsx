@@ -3,9 +3,9 @@ import "./skills.css";
 import frontimg from '../../assets/background2.jpg'
 import photopic from '../../assets/background3.jpg'
 //parent component
-function SkillMain(){
+function SkillMain({ refProp }){
     return(
-        <div className="skillsTopDiv">
+        <div ref={refProp} className="skillsTopDiv">
             <div className="skillHeader" style={{color:'white', textAlign:'center',fontWeight:'bolder'}}>Skills</div>
             <div className="skillMainDiv">  
                 <Skills
